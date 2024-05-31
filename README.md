@@ -1,9 +1,9 @@
 # Arkema 2024 Project
-* This repo contains the work for the Arkema 2024 project. The project focused on using images of paints on wood to predict the ratings of the wood over several modes of failure.
+This repo contains the work for the Arkema 2024 project. The project focused on using images of paints on wood to predict the ratings of the wood over several modes of failure.
 
 ## Separating Sections
 We were given images of racks which contained several panels. Our first task was to segment the racks into individual panels.
-To do this we created the segmenter (under `segmenter.py`) which performs human-assisted segmentation. Due to the slight variations in color, a human is required to make sure the panels are separated. \
+To do this we created the segmenter (under `segmenter.py`) which performs human-assisted segmentation. Due to the slight variations in color, a human is required to make sure the panels are separated.
 
 This application shows images of racks and the user must click the top left and bottom right of the panel to save it as an image. The dependencies required for this application are under `segment_requirements.txt`.
 
